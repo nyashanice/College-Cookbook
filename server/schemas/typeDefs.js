@@ -6,6 +6,8 @@ const typeDefs = gql`
     title: String
     ingredients: [String]!
     steps: [String]!
+    tips: [String]!
+    creator: String
   }
 
   type Query {
@@ -14,7 +16,13 @@ const typeDefs = gql`
   }
 
   type Mutation {
-    addMeal(title: String!, ingredients: [String]!, steps: [String]!, tips: [String], creator: String): Meal
+    addMeal(
+      title: String!
+      ingredients: [String]!
+      steps: [String]!
+      tips: [String]
+      creator: String
+    ): Meal
     removeMeal(mealId: ID!): Meal
   }
 `;
