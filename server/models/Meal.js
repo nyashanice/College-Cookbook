@@ -7,11 +7,19 @@ const mealSchema = new Schema({
     trim: true,
   },
   ingredients: {
-    type: String,
+    type: [String],
     required: true,
     trim: true,
   },
   steps: {
+    type: [String],
+    required: true,
+  },
+  tips: {
+    type: [String],
+    required: false,
+  },
+  creator: {
     type: String,
     required: true,
   },

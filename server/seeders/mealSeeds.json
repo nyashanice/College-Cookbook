@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Baked Macaroni and Cheese",
+    "ingredients": [
+      "elbow macaroni noodles",
+      "4.5 cups of shredded cheddar cheese",
+      "8 oz cheddar cheese block",
+      "8 oz monterey jack cheese block",
+      "can of evaporated milk",
+      "2 eggs",
+      "1.5 tbsp sugar",
+      "1 tbsp salt",
+      "black pepper",
+      "butter"
+    ],
+    "steps": [
+      "boil water for noodles (add salt to taste)",
+      "while water is boiling, in a bowl, mix together eggs, evaporated milk, salt, pepper, and sugar",
+      "cut up block cheese into small blocks",
+      "preheat oven to 350 degrees",
+      "boil noodles for 8 minutes",
+      "drain water from noodles and return to pot",
+      "add shredded cheddar cheese and butter and melt over low heat",
+      "add noodles to baking dish",
+      "mix in milk mixture thouroughly and then the cut up block cheese",
+      "sprinkle shredded cheese on top",
+      "bake in oven for 25 minutes of until baked to desired browness"
+    ],
+    "creator": "Nya Tyus"
+  },
+  {
+    "title": "Buffalo Chicken Ranch Quesadilla",
+    "ingredients": [
+      "chicken breast (cut up or ground)",
+      "Frank's red hot buffalo sauce",
+      "ranch",
+      "tortillas",
+      "shredded cheese",
+      "butter"
+    ],
+    "steps": [
+      "season and cook chicken",
+      "mix buffalo sauce and melted butter in a bowl",
+      "pour chicken in bowl with sauce mixture and toss",
+      "put tortilla on a skillet and on one half, put chicken, cheese, and ranch",
+      "fold over other half of tortilla to close",
+      "cook on both sides to desired browness"
+    ],
+    "tips": ["Add bacon for buffalo chicken, bacon, ranch quesadillas!"],
+    "creator": "Nya Tyus"
+  }
+]
