@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/nyashanice/College-Cookbook#readme",
   "dependencies": {
+    "concurrently": "^7.6.0",
     "mongoose": "^7.0.2"
   }
 }
