@@ -26,7 +26,8 @@
       "sprinkle shredded cheese on top",
       "bake in oven for 25 minutes of until baked to desired browness"
     ],
-    "creator": "Nya Tyus"
+    "creator": "Nya Tyus",
+    "category": "Pasta"
   },
   {
     "title": "Buffalo Chicken Ranch Quesadilla",
@@ -47,6 +48,7 @@
       "cook on both sides to desired browness"
     ],
     "tips": ["Add bacon for buffalo chicken, bacon, ranch quesadillas!"],
-    "creator": "Nya Tyus"
+    "creator": "Nya Tyus",
+    "category": "Sandwiches"
   }
 ]

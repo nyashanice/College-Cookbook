@@ -3,16 +3,17 @@ const { gql } = require("apollo-server-express");
 const typeDefs = gql`
   type Meal {
     _id: ID
-    title: String
+    title: String!
     ingredients: [String]!
     steps: [String]!
-    tips: [String]!
+    tips: [String]
     creator: String
+    category: String!
   }
 
   type Query {
     meals: [Meal]!
-    meal(mealId: ID!): Meal
+    meal(title: String!): Meal
   }
 
   type Mutation {
@@ -22,6 +23,7 @@ const typeDefs = gql`
       steps: [String]!
       tips: [String]
       creator: String
+      category: String!
     ): Meal
     removeMeal(mealId: ID!): Meal
   }

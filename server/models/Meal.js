@@ -21,14 +21,12 @@ const mealSchema = new Schema({
   },
   creator: {
     type: String,
+    required: false,
+  },
+  category: {
+    type: String,
     required: true,
   },
-//   category: [
-//     {
-//       type: Schema.Types.ObjectId,
-//       ref: "category",
-//     },
-//   ],
   //   add images of meal
   //   create reaction portion that allows users to click a button to react (like social media)
 });

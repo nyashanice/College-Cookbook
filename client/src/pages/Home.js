@@ -1,25 +1,22 @@
 import React from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 import CategoryList from "../components/CategoryList";
 import { useQuery } from "@apollo/client";
+import { Link } from "react-router-dom";
 
 const Home = () => {
-  const { loading, data } = useQuery();
-  const categories = data?.categories || [];
+  // const { loading } = useQuery();
+  // const categories = data?.categories || [];
 
   return (
-    <main>
-      <Header />
       <div>
-        {loading ? (
+        {/* {loading ? (
           <div>Loading...</div>
-        ) : (
+        ) : ( */}
           <div>
             <div>
               <h1>FEATURED</h1>
               <div>
-                <img></img>
+                <img alt=""></img>
                 <div>
                   <h3>Name of dish</h3>
                   <p>Description</p>
@@ -32,9 +29,9 @@ const Home = () => {
               <CategoryList />
             </div>
           </div>
-        )}
+        {/* )} */}
       </div>
-      <Footer />
-    </main>
   );
 };
+
+export default Home;

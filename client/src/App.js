@@ -9,7 +9,8 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 const client = new ApolloClient({
-  uri: "/graphql",
+  uri: "http://localhost:3002/graphql",
+  // uri: "/graphql",
   cache: new InMemoryCache(),
 });
 
@@ -22,7 +23,7 @@ function App() {
           <div>
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="category/:categoryId" element={<Category />} />
+              <Route path="/category/:categoryId" element={<Category />} />
               <Route path="/meals/:mealId" element={<SingleMeal />} />
             </Routes>
           </div>
