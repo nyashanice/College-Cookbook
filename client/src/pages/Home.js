@@ -19,7 +19,6 @@ const Home = () => {
                 <img alt=""></img>
                 <div>
                   <h3>Name of dish</h3>
-                  <p>Description</p>
                   <Link></Link>
                 </div>
               </div>
@@ -29,7 +28,7 @@ const Home = () => {
               <CategoryList />
             </div>
           </div>
-        {/* )} */}
+          {/* )}  */}
       </div>
   );
 };

@@ -21,8 +21,14 @@ const mealSchema = new Schema({
   },
   creator: {
     type: String,
-    required: false,
+    required: true,
   },
+  // category: [
+  //   {
+  //     type: Schema.Types.String,
+  //     ref: "category",
+  //   },
+  // ],
   category: {
     type: String,
     required: true,
