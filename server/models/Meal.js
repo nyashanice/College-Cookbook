@@ -33,6 +33,10 @@ const mealSchema = new Schema({
     type: String,
     required: true,
   },
+  image: {
+    data: Buffer,
+    contentType: String,
+  }
   //   add images of meal
   //   create reaction portion that allows users to click a button to react (like social media)
 });

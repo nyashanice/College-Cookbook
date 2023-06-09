@@ -27,7 +27,8 @@
       "bake in oven for 25 minutes of until baked to desired browness"
     ],
     "creator": "Nya Tyus",
-    "category": "Pasta"
+    "category": "Side dishes",
+    "imagePath": "../../images/mac-and-cheese.jpeg"
   },
   {
     "title": "Buffalo Chicken Ranch Quesadilla",
@@ -49,6 +50,7 @@
     ],
     "tips": ["Add bacon for buffalo chicken, bacon, ranch quesadillas!"],
     "creator": "Nya Tyus",
-    "category": "Sandwiches"
+    "category": "Main dishes",
+    "imagePath": "../../images/quesadillas.jpeg"
   }
 ]
