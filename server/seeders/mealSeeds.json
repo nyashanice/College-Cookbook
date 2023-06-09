@@ -28,7 +28,7 @@
     ],
     "creator": "Nya Tyus",
     "category": "Side dishes",
-    "imagePath": "../../images/mac-and-cheese.jpeg"
+    "imagePath": "../client/public/images/mac-and-cheese.jpeg"
   },
   {
     "title": "Buffalo Chicken Ranch Quesadilla",
@@ -51,6 +51,6 @@
     "tips": ["Add bacon for buffalo chicken, bacon, ranch quesadillas!"],
     "creator": "Nya Tyus",
     "category": "Main dishes",
-    "imagePath": "../../images/quesadillas.jpeg"
+    "imagePath": "../client/public/images/quesadillas.jpeg"
   }
 ]
